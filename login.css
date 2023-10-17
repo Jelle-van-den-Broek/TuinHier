@@ -1,0 +1,186 @@
+@import url('https://font.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+section .contentBx .formBx h2
+{
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #4AD557;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+section .contentBx .formBx .inputBx
+{
+    margin-bottom: 20px;
+}
+section .contentBx .formBx .inputBx span
+{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+section .contentBx .formBx .inputBx input
+{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+}
+section .contentBx .formBx .inputBx input[type="submit"]
+{
+    background: #4AD557;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+section .contentBx .formBx .inputBx input[type="submit"]:hover 
+{
+    background-color: #4AD557;
+}
+section .contentBx .formBx .remember
+{
+    margin-bottom:  10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+section .contentBx .formBx .inputBx p
+{
+    color: #607d8b;
+}
+section .contentBx .formBx .inputBx p a
+{
+    color: #4AD557
+}
+section .contentBx .formBx .inputBx input[type="submit2"]
+{
+    background-image: url("signinwithgoogle.png");
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+section .contentBx .formBx .inputBx input[type="submit2"]:hover
+{
+    background-color: #4AD557;
+}
+section .contentBx .formBx .remember
+{
+    margin-bottom:  10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+section .contentBx .formBx .inputBx p
+{
+    color: #607d8b;
+}
+section .contentBx .formBx .inputBx p a
+{
+    color: #4AD557
+}
+section .contentBx .formBx .inputBx input[type="submit3"]
+{
+    background-image: url("facebooklogo.png");
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+section .contentBx .formBx .inputBx input[type="submit3"]:hover
+{
+    background-color: #4AD557;
+}
+section .contentBx .formBx .remember
+{
+    margin-bottom:  10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+section .contentBx .formBx .inputBx p
+{
+    color: #607d8b;
+}
+section .contentBx .formBx .inputBx p a
+{
+    color: #4AD557
+}
+section .contentBx .formBx .inputBx input[type="submit4"]
+{
+    background-image: url("applelogin.png");
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+section .contentBx .formBx .inputBx input[type="submit4"]:hover
+{
+    background-color: #4AD557;
+}
+section .contentBx .formBx .remember
+{
+    margin-bottom:  10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+section .contentBx .formBx .inputBx p
+{
+    color: #607d8b;
+}
+section .contentBx .formBx .inputBx p a
+{
+    color: #4AD557
+}
+
+.textborder{
+    border-style:solid;
+    border-width: 2px;
+    border-color: green;
+    border-radius: 10px;
+    padding: 5px;
+
+}

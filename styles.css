@@ -1,0 +1,75 @@
+
+
+:root {
+    --green: #4AD557; 
+    --light: #F3F4F6;
+  }
+  
+body{
+    background-color: var(--light); 
+    
+}
+h1{
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.nav-logo img{
+    margin-right: 10px;
+    
+    }
+
+.logo-font{
+    font-family: 'Advent Pro', sans-serif;
+    
+    }
+    
+.active{
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+}
+.dashboard-content{
+    background-color: #FFFF;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 25px -8px rgba(0,0,0,0.25); 
+    box-shadow: 5px 5px 25px -8px rgba(0,0,0,0.25);
+}
+.dashboard-info{
+    background-color: #FFFF;
+    float: right;
+}
+.btn-food{
+    margin: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.marker {
+    background-image: url('images/logo.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+.mapboxgl-popup {
+    max-width: 200px;
+    }
+    
+.mapboxgl-popup-content {
+text-align: center;
+font-family: 'Advent Pro', sans-serif;
+}
+table, th, td {
+
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: green;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid white;  /* creates padding around scroll thumb */
+  }

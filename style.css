@@ -1,0 +1,243 @@
+:root {
+    --green: #4AD557; 
+    --light: #F3F4F6;
+    --white: #fff
+  }
+  
+body{
+    background-color: var(--light); 
+}
+
+
+
+
+
+.nav-logo  {
+    letter-spacing: 1px;
+    margin-left: 8vw;
+}
+
+.navbar-nav{
+    margin-right: 8vw;
+}
+
+.logo-font{
+	font-family: 'proxima-nova', sans-serif;
+    font-weight: bold;
+}
+    
+.active{
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+}
+
+.title {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: 'proxima-nova', sans-serif;
+    font-size: 150%;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.map-profiles{
+    background-color: var(--white);
+    width: 80%;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px #00000025;
+}
+
+.map-section{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 60%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: left;
+}
+
+.order-profile-section{
+    position: relative;
+    background-color: white;
+    height: 100%;
+    width: 40%;
+    float: right;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.order-profile-size{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-part-above{
+    width: 100%;
+    height: auto;
+}
+
+.order-title{
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 2vw;
+    margin-top: 4%;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 1vw;
+}
+
+.remove-filter{
+    color: rgb(157, 157, 157);
+    text-decoration: underline;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 0.8vw;
+    float: right;
+    margin-top: 8.5%;
+    cursor: pointer;
+}
+
+.filter-button{
+    list-style-type: none;
+    margin: 3% 1vw;
+    color: #A8A8A8;
+    cursor: pointer;
+        font-family: 'proxima-nova', sans-serif;
+}
+
+
+
+.filter-button a{
+    font-size: 1vw;
+    text-decoration: none;
+    background: #F3F4F6;
+    padding: 0.65vw 1.1vw 0.65vw 1.1vw;
+    border-radius: 0.6vw;
+    
+}
+
+.active-filter a{
+    background: #4AD557;
+}
+
+.active-filter {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.filters{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.filters ul li{
+    display: inline-table;
+    margin-left: 0;
+}
+
+.filter-list{
+    width: 100%;
+    height: 100%;
+    margin-left: -30px;
+}
+
+
+.seller-title{
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 2vw;
+    margin-top: 1%;
+    font-weight: bold;
+    float: left;
+}
+
+.sellers{
+    width: 100%;
+    height: 200px;
+    margin-top: 5vw;
+    overflow-y: scroll;
+    scrollbar-width: auto;
+    scrollbar-color: #D1D1D1 #ffffff;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+
+
+  /* Chrome, Edge, and Safari */
+  .sellers::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  s.sellers::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .sellers::-webkit-scrollbar-thumb {
+    background-color: #D1D1D1;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+.title-part-bottom{
+    width: 100%;
+    height: 0.1vw;
+}
+
+.seller{
+    background-color: #F3F4F6;
+    width: 100%;
+    border-radius: 0.6vw;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.seller-pic{
+    background-color: black;
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 100%;
+    float: left;
+    margin-left: 1.5vw;
+    margin-top: 0.8vw;
+
+}
+
+.seller-name{
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 100%;
+    margin-top: 0.8vw;
+    float: left;
+    margin-left: 1vw;
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+
+.seller-rate{
+    font-size: 1.1vw;
+    margin-top: 2.1vw;
+    margin-left: -6.5vw;
+    float: left;
+}
+
+.seller-button{
+    font-size: 1.1vw;
+    font-family: 'proxima-nova', sans-serif;
+    float: right;
+    margin-top: 1.5vw;
+    text-decoration: underline;
+    margin-right: 1.5vw;
+}
+
+.seller-button a{
+    color: rgb(70, 70, 70);
+}

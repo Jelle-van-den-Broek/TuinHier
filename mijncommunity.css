@@ -1,0 +1,53 @@
+.right{
+    float: left;
+ padding-left: 150px;
+}
+
+.right2{
+    float: left;
+    padding-left: 100px;
+    height: auto;
+}
+
+.right3{
+    float: left;
+    padding-left: 100px;
+}
+
+.ruimte{
+    float: left;
+    padding-left: 150px;
+}
+
+.ruimte2{
+    float: left;
+    padding-left: 382px;
+}
+
+.ruimte3{
+    float: left;
+    padding-left: 390px;
+}
+
+.ruimte4{
+    float: left;
+    padding-left: 337px;
+}
+
+.letterruimte{
+    float: left;
+    padding-left: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+  .ruimtebutton{
+    float: left;
+    padding-left: 150px;
+}
+
